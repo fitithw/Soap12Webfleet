@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B285E5A-30D1-42CD-AE46-5821D244D955}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soap12Webfleet.Tests", "Soap12Webfleet\Soap12Webfleet.Tests\Soap12Webfleet.Tests.csproj", "{559D683E-EC10-4442-9A25-7EA7A9DE8A70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ServiceModel4|Any CPU = ServiceModel4|Any CPU
+		ServiceModel6|Any CPU = ServiceModel6|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{559D683E-EC10-4442-9A25-7EA7A9DE8A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559D683E-EC10-4442-9A25-7EA7A9DE8A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559D683E-EC10-4442-9A25-7EA7A9DE8A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559D683E-EC10-4442-9A25-7EA7A9DE8A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559D683E-EC10-4442-9A25-7EA7A9DE8A70}.ServiceModel4|Any CPU.ActiveCfg = ServiceModel4|Any CPU
+		{559D683E-EC10-4442-9A25-7EA7A9DE8A70}.ServiceModel4|Any CPU.Build.0 = ServiceModel4|Any CPU
+		{559D683E-EC10-4442-9A25-7EA7A9DE8A70}.ServiceModel6|Any CPU.ActiveCfg = ServiceModel6|Any CPU
+		{559D683E-EC10-4442-9A25-7EA7A9DE8A70}.ServiceModel6|Any CPU.Build.0 = ServiceModel6|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1029C0E-8465-477B-8881-68F6BD67EFA9}
+	EndGlobalSection
+EndGlobal

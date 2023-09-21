@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Soneta.Sdk">
+  <PropertyGroup>
+    <TargetFramework>$(SonetaTestsTargetFramework)</TargetFramework>
+    <Configurations>ServiceModel4;ServiceModel6</Configurations>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(Configuration)' == 'ServiceModel4'" >
+    <PackageReference Include="System.ServiceModel.Http" Version="4.8.1" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.9.0" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)' == 'ServiceModel6'" >
+    <PackageReference Include="System.ServiceModel.Http" Version="6.0.0" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="6.0.0" />
+  </ItemGroup>
+</Project>
